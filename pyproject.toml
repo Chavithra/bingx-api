@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "bingx-api"
+version = "0.1.0"
+description = "This is yet another library to access Bingx's API."
+authors = ["Chavithra PARANA <chavithra@gmail.com>"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: BSD License",
+    "Operating System :: OS Independent",
+]
+readme = "README.md"
+packages = [
+    { include = "bingx_api" },
+]
+license = "BSD-3-Clause"
+
+
+[tool.poetry.dependencies]
+python = "^3.12"
+flake8 = "^7.0.0"
+black = "^24.4.2"
+mypy = "^1.10.0"
+types-requests = "^2.32.0.20240521"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
