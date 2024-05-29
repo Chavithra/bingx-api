@@ -54,10 +54,6 @@ pip uninstall bingx-api
 |bingx_api.future.ws.update_listen_key|Refresh listen key necessary to establish a websocket connection.|
 |bingx_api.future.ws.valid_listen_key|Maintain a valid listen key necessary to establish a websocket connection.|
 
-## Contributing
-
-We welcome contributions to Bingx-API. If you find any issues or have suggestions for improvements, please open an issue or submit a pull request.
-
 ## License
 
 Bingx-API is licensed under the BSD-3-Clause license. See the [LICENSE](LICENSE) file for more information.
